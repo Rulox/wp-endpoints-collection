@@ -17,3 +17,4 @@ script:
 
 after_success:
   - if [ $TRAVIS_BRANCH = 'master' ]; then sh generate_doc.sh; fi
+
